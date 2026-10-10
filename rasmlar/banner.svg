@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="SANOAT XAVFSIZLIGI AI — kameralar orqali xavfsizlik nazorati">
+  <defs>
+    <linearGradient id="fon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/>
+      <stop offset="1" stop-color="#121a30"/>
+    </linearGradient>
+    <linearGradient id="skan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="tor" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    <clipPath id="kadr"><rect x="760" y="44" width="456" height="272" rx="14"/></clipPath>
+    <style>
+      .sarlavha{font:800 52px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#f8fafc;letter-spacing:1px}
+      .izoh{font:500 22px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#94a3b8}
+      .teg{font:600 15px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#cbd5e1}
+      .yorliq{font:700 13px 'DejaVu Sans Mono',Consolas,monospace;fill:#ffffff}
+      .osd{font:600 13px 'DejaVu Sans Mono',Consolas,monospace;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="url(#fon)"/>
+  <rect width="1280" height="360" fill="url(#tor)" opacity=".5"/>
+
+  <g transform="translate(64 0)">
+    <g transform="translate(0 70)">
+      <rect width="56" height="56" rx="14" fill="#2563eb"/>
+      <path d="M28 12a16 16 0 1 0 16 16" fill="none" stroke="#eff6ff" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M28 20a8 8 0 1 0 8 8" fill="none" stroke="#bfdbfe" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="28" cy="28" r="3.5" fill="#eff6ff"/>
+      <path d="M28 28L44 14" stroke="#eff6ff" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text class="sarlavha" x="0" y="190">SANOAT XAVFSIZLIGI AI</text>
+    <text class="izoh" x="0" y="232">Kamera · detektor · treker · zona qoidalari · faqat lokal</text>
+    <g transform="translate(0 270)">
+      <rect width="84" height="30" rx="15" fill="#1e293b"/><text class="teg" x="42" y="20" text-anchor="middle">Python</text>
+      <rect x="94" width="136" height="30" rx="15" fill="#1e293b"/><text class="teg" x="162" y="20" text-anchor="middle">ONNX Runtime</text>
+      <rect x="240" width="70" height="30" rx="15" fill="#1e293b"/><text class="teg" x="275" y="20" text-anchor="middle">YOLO</text>
+      <rect x="320" width="94" height="30" rx="15" fill="#1e293b"/><text class="teg" x="367" y="20" text-anchor="middle">OpenCV</text>
+      <rect x="424" width="94" height="30" rx="15" fill="#1e293b"/><text class="teg" x="471" y="20" text-anchor="middle">FastAPI</text>
+    </g>
+  </g>
+
+  <!-- Kamera kadri (sxema): zona, odam, ramka -->
+  <rect x="760" y="44" width="456" height="272" rx="14" fill="#0d1526" stroke="#334155" stroke-width="2"/>
+  <g clip-path="url(#kadr)">
+    <g stroke="#1f2a3d" stroke-width="1">
+      <path d="M760 170H1216M760 200H1216M760 236H1216M760 280H1216"/>
+      <path d="M988 150L860 316M988 150L1116 316M988 150L780 316M988 150L1196 316M988 150L988 316"/>
+    </g>
+    <polygon points="1010,186 1150,182 1196,300 990,306" fill="#ef4444" fill-opacity=".14" stroke="#ef4444" stroke-width="2" stroke-dasharray="8 6">
+      <animate attributeName="fill-opacity" values=".14;.14;.32;.32;.14" keyTimes="0;0.5;0.56;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- yuruvchi odam + ramka -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;150 0;150 0;0 0" keyTimes="0;0.55;0.92;1" dur="7s" repeatCount="indefinite"/>
+      <g transform="translate(900 286)">
+        <circle cx="0" cy="-74" r="11" fill="#cbd5e1"/>
+        <path d="M-12 -77a12 10 0 0 1 24 0z" fill="#facc15"/>
+        <rect x="-14" y="-61" width="28" height="38" rx="9" fill="#cbd5e1"/>
+        <rect x="-12" y="-25" width="10" height="34" rx="4" fill="#cbd5e1"/>
+        <rect x="2" y="-25" width="10" height="34" rx="4" fill="#cbd5e1"/>
+        <rect x="-26" y="-92" width="52" height="106" fill="none" stroke="#22c55e" stroke-width="3">
+          <animate attributeName="stroke" values="#22c55e;#22c55e;#ef4444;#ef4444;#22c55e" keyTimes="0;0.5;0.53;0.92;1" dur="7s" repeatCount="indefinite"/>
+        </rect>
+        <g>
+          <rect x="-26" y="-114" width="96" height="22" fill="#16a34a">
+            <animate attributeName="width" values="96;96;178;178;96" keyTimes="0;0.5;0.53;0.92;1" dur="7s" repeatCount="indefinite"/>
+            <animate attributeName="fill" values="#16a34a;#16a34a;#dc2626;#dc2626;#16a34a" keyTimes="0;0.5;0.53;0.92;1" dur="7s" repeatCount="indefinite"/>
+          </rect>
+          <text class="yorliq" x="-20" y="-98">odam 0.91
+            <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.53;0.92;1" dur="7s" repeatCount="indefinite"/>
+          </text>
+          <text class="yorliq" x="-20" y="-98" opacity="0" style="font-size:12px">R04 · taqiqlangan zona
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.53;0.92;1" dur="7s" repeatCount="indefinite"/>
+          </text>
+        </g>
+      </g>
+    </g>
+
+    <!-- olov (kichik, burchakda) -->
+    <g transform="translate(818 214)">
+      <path d="M0 0C-22 -4 -15 -30 -4 -44C0 -30 11 -33 7 -52C26 -33 26 -7 0 0z" fill="#f97316">
+        <animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.94;0.96 1.06;1 1" dur="0.9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0 0C-9 -2 -7 -16 0 -25C4 -15 11 -13 5 -27C16 -15 13 -4 0 0z" fill="#fde047"/>
+      <rect x="-24" y="-58" width="50" height="62" fill="none" stroke="#f97316" stroke-width="2.5"/>
+      <rect x="-24" y="-78" width="82" height="20" fill="#f97316"/>
+      <text class="yorliq" x="-19" y="-63">olov 0.88</text>
+    </g>
+
+    <!-- skaner nuri -->
+    <rect x="760" y="44" width="456" height="40" fill="url(#skan)" opacity=".35">
+      <animate attributeName="y" values="-16;300" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- kadr ustki yozuvlari -->
+  <circle cx="784" cy="66" r="6" fill="#ef4444"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text class="osd" x="798" y="71">CAM-03 · 5 kadr/s</text>
+  <rect x="1088" y="54" width="114" height="24" rx="12" fill="#052e16" stroke="#22c55e" stroke-width="1.5"/>
+  <text class="osd" x="1145" y="71" text-anchor="middle" style="fill:#4ade80">LOKAL TARMOQ</text>
+</svg>
